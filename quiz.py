@@ -1,11 +1,28 @@
-# Using readlines() method
+print('Using readlines() method:')
 f = open('data.txt', 'r')
 lines = f.readlines()
 f.close()
 print(lines)
+print('\n')
 
-# Using read() method
+print('Using read() method:')
 f = open('data.txt', 'r')
 lines = f.read()
 f.close()
 print(lines)
+print('\n')
+
+print('Using relative paths:')
+f = open('files/relative_data.txt', 'r')
+lines = f.read()
+f.close()
+print(lines)
+print('\n')
+
+print('Using absolute paths:')
+f = open('/home/ubuntu/workspace/files/absolute_data.txt', 'r')
+lines = f.read()
+f.close()
+print(lines)
+print('\n')
+

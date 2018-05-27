@@ -1,0 +1,13 @@
+Console access used to write this file.
+
+Methods used:
+
+f.read()
+f.write()
+f.tell() (where the cursor currently is)
+f.seek() (to a specific cursor point in the file)
+
+Hello World
+Appended line 1
+Appended line 2
+Appended line 3

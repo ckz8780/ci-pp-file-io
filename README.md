@@ -13,7 +13,7 @@ This repo provides a few simple examples of file I/O operations with Python. Thi
     
 #### Useful practical example in quiz_game/quiz.py:
 
-- Simply duplicate the two files in this folder and run quiz.py
+- Simply duplicate the two files in this folder and run `python3 quiz.py`
 - You'll be given three options:
     - Ask questions
     - Add a question
